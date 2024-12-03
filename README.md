@@ -2,7 +2,6 @@
 
 This Python script tests URL parameters for potential SQL injection vulnerabilities by checking server responses for known database error messages.
 
----
 
 ## 🛠️ How It Works
 
@@ -10,7 +9,6 @@ This Python script tests URL parameters for potential SQL injection vulnerabilit
 2. Injects common SQL attack characters (`'` and `"`) into each parameter.
 3. Checks server responses for known SQL error messages.
 
----
 
 ## 🚀 How to Use
 
@@ -28,8 +26,6 @@ This Python script tests URL parameters for potential SQL injection vulnerabilit
   ```
   NOT VULNERABLE
   ```
-
----
 
 ## ⚠️ Disclaimer
 
