@@ -1,12 +1,27 @@
-"mysql_fetch_array()",
-"You have an error in your SQL syntax",
-"SQL0104 - Sinal &1 não válido. Sinais válidos: &2",
-"SQL0113 - Nome &1 não permitido.",
-"SQL0114 - A base de dados relacional &1 não é a mesma que o servidor &2 actual",
-"SQL0204 - MYSYSCONF não localizado",
-"SQL0208 - Coluna ORDER BY não está na tabela de resultados",
-"SQL0900 - O processo da aplicação não está num estado ligado",
-"SQL0901 - Erro de Sistema de SQL",
-"SQL5001 - Qualificador de coluna ou tabela &2 não definido.",
-"SQL5016 - Nome de objecto &1 não válido para convenção de nomenclatura",
-"SQL7008 - &1 em &2 não válido para a operação. O código de razão é 3"
+"You have an error in your SQL syntax"
+"Warning: mysql_fetch_array()"
+"Warning: mysql_num_rows()"
+"Warning: mysql_query()"
+"Warning: pg_query()"
+"Warning: odbc_exec()"
+"Fatal error: Uncaught Error: Call to undefined function mysql_connect()"
+"Unclosed quotation mark after the character string"
+"Microsoft OLE DB Provider for ODBC Drivers error"
+"Syntax error in string in query expression"
+"Incorrect syntax near"
+"Invalid SQL statement"
+"Unknown column"
+"Column not found"
+"Table not found"
+"SQLSTATE[42000]: Syntax error or access violation"
+"SQLSTATE[HY000]: General error"
+"ERROR: unterminated quoted string at or near"
+"ODBC SQL error"
+"SQLite Error: near"
+"SQLite3::exec(): near"
+"SQL syntax error"
+"OperationalError: near"
+"Missing operand before"
+"Unexpected end of SQL command"
+"Invalid use of NULL keyword"
+"Incorrect usage of UNION and ORDER BY"
