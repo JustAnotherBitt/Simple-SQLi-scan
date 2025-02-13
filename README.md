@@ -13,16 +13,24 @@ This Python script tests URL parameters for potential SQL injection vulnerabilit
 ## 🚀 How to Use
 
    Run the script with the target URL:
+   
    ```bash
-   python script.py "http://example.com/page.php?id=1&name=test"
+   python main.py "http://example.com/page.php?id=1&name=test"
+   ```
+   On Linux:
+   
+    ```bash
+   python main.py "http://example.com/page.php?id=1&name=test"
    ```
 
 ### Output:
 - If vulnerable:
+
   ```
   [ + ] id parameter is vulnerable
   ```
 - If no vulnerability is found:
+
   ```
   NOT VULNERABLE
   ```
