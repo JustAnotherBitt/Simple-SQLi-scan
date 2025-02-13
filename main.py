@@ -1,7 +1,7 @@
-import copy  # permite criar cópias profundas (deep copies) de objetos compostos
+import copy  # allows you to create deep copies (deep copies) of composite objects
 import sys
-from urllib import parse  # manipulação de URLs
-import requests  # usado para fazer requisições HTTP
+from urllib import parse  # URL manipulation
+import requests  # for HTTP requests
 
 
 def request(url):
@@ -16,19 +16,8 @@ def request(url):
 
 
 def is_vulnerable(html):
-    errors = ["mysql_fetch_array()",
-              "You have an error in your SQL syntax",
-              "SQL0104 - Sinal &1 não válido. Sinais válidos: &2",
-              "SQL0113 - Nome &1 não permitido.",
-              "SQL0114 - A base de dados relacional &1 não é a mesma que o servidor &2 actual",
-              "SQL0204 - MYSYSCONF não localizado",
-              "SQL0208 - Coluna ORDER BY não está na tabela de resultados",
-              "SQL0900 - O processo da aplicação não está num estado ligado",
-              "SQL0901 - Erro de Sistema de SQL",
-              "SQL5001 - Qualificador de coluna ou tabela &2 não definido.",
-              "SQL5016 - Nome de objecto &1 não válido para convenção de nomenclatura",
-              "SQL7008 - &1 em &2 não válido para a operação. O código de razão é 3"
-              ]
+    errors = open('errors.txt')
+    print(errors)
     for error in errors:
         if error in html:
             return True
