@@ -25,10 +25,12 @@ This Python script tests URL parameters for potential SQL injection vulnerabilit
 
 ### Output:
 - If vulnerable:
+  
   ```
   [ + ] id parameter is vulnerable
   ```
 - If no vulnerability is found:
+  
   ```
   NOT VULNERABLE
   ```
