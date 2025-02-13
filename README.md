@@ -17,10 +17,10 @@ This Python script tests URL parameters for potential SQL injection vulnerabilit
    ```bash
    python main.py "http://example.com/page.php?id=1&name=test"
    ```
-   On Linux:
+   On Linux (with `python3`):
    
    ```bash
-   python main.py "http://example.com/page.php?id=1&name=test"
+   python3 main.py "http://example.com/page.php?id=1&name=test"
    ```
 
 ### Output:
