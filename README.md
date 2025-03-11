@@ -1,6 +1,6 @@
 # SQL Injection Vulnerability Scanner
 
-This Python script tests URL parameters for potential SQL injection vulnerabilities by checking server responses for known database error messages.
+This Python script tests URL parameters for potential SQL injection vulnerabilities by checking server responses for known database error messages (which can be improved).
 
 
 ## 🛠️ How It Works
